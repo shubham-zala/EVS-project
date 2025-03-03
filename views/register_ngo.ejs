@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterAsNGO | Eco Sway</title>
+
+
+    <link rel="stylesheet" href="RegisterAsNGO_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <a href="C:\desktop\Academic\2nd year\Sem 4\EVS\Project\profile1.html"><img class="profile" src="profile.png" alt="Profile" sizes="50px" ></a>
+
+        <div class="alumni-sans-inline-one-regular">ECO SWAY</div>
+        <nav>
+            <ul class="bebas-neue-regular">
+                <li><a href="/">HOME</a></li>
+                <li><a href="C:\desktop\Academic\2nd year\Sem 4\EVS\Project\buy1.html">BUY</a></li>
+                <li><a href="C:\desktop\Academic\2nd year\Sem 4\EVS\Project\sell.html">SELL</a></li>
+                <li><a href="C:\desktop\Academic\2nd year\Sem 4\EVS\Project\donate.html">DONATE</a></li>
+                <li><a href="#">VOLUNTEERS</a></li>
+                <li><a href="C:\desktop\Academic\2nd year\Sem 4\EVS\Project\OurServices.html">OUR SERVICES</a></li>
+                <li><a href="C:\desktop\Academic\2nd year\Sem 4\EVS\Project\signin.html">SIGN IN</a></li>
+            </ul>
+        </nav>
+        <!-- <div class="profile">
+            <img src="profile.png" alt="Profile Picture">
+        </div> -->
+    </header>
+
+    <div class="signin-container">
+        <h3>Register</h3>
+        <form method="POST" action="/signup/ngo">
+            <div class="form-input">
+                <label for="NGOName">NGOName:</label>
+                <input type="text" id="NGOName" name="ngo_name" placeholder="Text" required>
+            </div>
+            <div class="form-input">
+                <label for="Description">Description:</label>
+                <input type="text" id="Description" name="description" placeholder="Text" required>
+            </div>
+            <!-- <div class="form-input">
+                <label for="Photo">Photo:</label>
+                <input type="file" id="Photo" name="Photo" placeholder="Upload a photo for your NGO" required>
+            </div> -->
+            <div class="form-input">
+                <label for="email">Email-ID:</label>
+                <input type="email" id="email" name="ngo_email" placeholder="AlphaNumeric@gmail.com" required>
+            </div>
+            <div class="form-input">
+                <label for="contact">Contact-No:</label>
+                <input type="tel" id="contact" name="ngo_contact" placeholder="Numeric" required>
+            </div>
+            <div class="form-input">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="ngo_password" placeholder="AlphaNumeric" required>
+            </div>
+            <button type="submit" class="register-button">Register</button>
+        </form>
+    </div>
+    
+    
+
+    <footer>
+        <div class="contact">
+            <p>Contact us:</p>
+            <p>Phone: 987654321</p>
+            <p>Email: es@gmail.com</p>
+            <p>Insta: eco.sway_24/7</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script>
+        window.botpressWebChat.init({
+            "composerPlaceholder": "Chat with bot",
+            "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+            "botId": "1c5abb33-4d5b-4c43-aec2-671c3c597d25",
+            "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+            "messagingUrl": "https://messaging.botpress.cloud",
+            "clientId": "1c5abb33-4d5b-4c43-aec2-671c3c597d25",
+            "webhookId": "957a4411-a57e-4d91-bded-b67b61632c5c",
+            "lazySocket": true,
+            "themeName": "prism",
+            "frontendVersion": "v1",
+            "showPoweredBy": true,
+            "theme": "prism",
+            "themeColor": "#0d0101"
+        });
+      </script>
+      
+</body>
+<style>
+    body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #488B8F;
+    background-color: #FAF9F9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: large;
+    
+    
+}
+.alumni-sans-inline-one-regular {
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 52px;
+
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+header {
+    background-color: #488B8F;
+    color: #C9FDD7;
+    padding: 10px 20px;
+    font-size: 25px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+header * {
+    color: #C9FDD7; /* Change this to the original color */
+}
+footer{
+    background-color: #488B8F;
+    color: #C9FDD7;
+    /* padding: 10px 20px; */
+    font-size: 16px;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.profile{
+    width: 55px;
+    height: 55px;
+    padding-top:5px;
+    text-align: right;
+    float: right;
+}
+
+.signin-container {
+    /* text-align: center; */
+    background-color: #ADD2C9;
+    padding: 20px;
+    border-radius: 50px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-top: 40px;
+    /* vertical-align:auto; */
+    margin-bottom: 10px;
+    
+
+}
+
+.signin-container h3{
+
+    text-align: center ;
+}
+
+.form-input {
+    
+    margin-bottom: 25px;
+    align-items: right;
+    flex: 1;
+}
+
+.form-input input {
+   /* text-align:center ; */
+   display: inline-block;
+    width: 54%;
+    padding: 10px;
+    margin-top: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    flex: 1;
+}
+
+.form-input label {
+    font-family: Arial, Helvetica, sans-serif ;
+    display: ruby-text-container;
+    margin-right: 10px;
+    font-weight: 900;
+    flex: 1;
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    font-weight: 900;
+    
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px auto;  
+    align-self: center; 
+    align-items: center;
+    text-align: center;
+    margin-left: 38%;
+}
+
+.signin-button {
+    background-color: #7ca79d;
+    /* color: #333; */
+    align-items: right;
+    border: 1px  #ADD2C9;
+}
+
+.register-button {
+    background-color:#7ca79d;
+    border: 1px solid #ADD2C9;
+    width:150px;
+}
+::placeholder {
+    font-weight: 900;
+}
+
+input {
+    background-color: #7ca79d; /* Set your desired background color */
+}
+
+
+button:hover {
+    opacity: 0.9;
+}
+.button-container {
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+.register-button {
+    display: inline-block;
+    margin-right: 10px; /* Adjust margin between buttons */
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.button-container{
+    display:flex;
+    flex-direction: row;
+    gap:4vh;
+    margin-left: -7%;
+}
+
+
+
+
+
+</style>
+</html>

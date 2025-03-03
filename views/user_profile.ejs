@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Eco Sway</title>
+
+
+    <link rel="stylesheet" href="profile1_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <a href="#"><img class="profile" src="images/profile.png" alt="Profile" sizes="50px" ></a>
+
+        <div class="alumni-sans-inline-one-regular">ECO SWAY</div>
+        <nav>
+            <ul class="bebas-neue-regular">
+                <li><a href="/">HOME</a></li>
+                <li><a href="C:\desktop\Academic\2nd year\Sem 4\EVS\Project\buy1.html">BUY</a></li>
+                <li><a href="C:\desktop\Academic\2nd year\Sem 4\EVS\Project\sell.html">SELL</a></li>
+                <li><a href="C:\desktop\Academic\2nd year\Sem 4\EVS\Project\donate.html">DONATE</a></li>
+                <li><a href="/volunteer">VOLUNTEERS</a></li>
+                <li><a href="C:\desktop\Academic\2nd year\Sem 4\EVS\Project\OurServices.html">OUR SERVICES</a></li>
+                <li>
+                    <form id="logoutForm" action="/logout" method="POST">
+                    <button type="submit" style="background-color: #488B8F; color: #C9FDD7; font-size: 25px; font-family: 'Bebas Neue', sans-serif; border: none;"><u>Logout</u></button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <!-- <div class="profile">
+            <img src="profile.png" alt="Profile Picture">
+        </div> -->
+    </header>
+
+    <div class="container">
+        <div class="left-section">
+            <div class="left-section-profile">
+                <img src="images/profile.png">
+                <table>
+                    <tr>
+                        <td style="text-align: center;"><%= user_name %></td>
+                    </tr>
+                </table>
+            </div>
+            <button class="my-cart-btn">My Cart</button>
+        </div>
+        
+
+        <div class="right-section">
+            <h2 style="text-align: center;font-family: Lufga;color: #488B8F; font-size: 40px; margin-top: 50;">Welcome: UserName</h2>
+            
+            <!-- <a href="C:\desktop\Academic\2nd year\Sem 4\EVS\Project\register.html"><button type="button" class="register-button">Register</button></a>
+                -->
+            <button class="right-btn">Products Bought</button>
+            <button class="right-btn">Products Sold</button>
+            <button class="right-btn">Donations</button>
+            <button class="right-btn">Volunteer</button>
+        </div>
+        
+
+        <!-- <div class="right-section">
+            <h2 style="width: 562px; height: 30px; top: 285px; left: 579px; font-family: Lufga; font-size: 55px; font-weight: 900; line-height: 71.78px; text-align: center; background: #488B8F;">
+                Welcome: UserName
+            </h2>
+        </div> -->
+        
+        
+    </div>
+
+    <footer>
+        <div class="contact">
+            <p>Contact us:</p>
+            <p>Phone: 987654321</p>
+            <p>Email: es@gmail.com</p>
+            <p>Insta: eco.sway_24/7</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+<style>
+    css code
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #488B8F;
+    background-color: #FAF9F9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: large;
+    
+}
+.alumni-sans-inline-one-regular {
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 52px;
+
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+header {
+    background-color: #488B8F;
+    color: #C9FDD7;
+    padding: 10px 20px;
+    font-size: 25px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+header * {
+    color: #C9FDD7; /* Change this to the original color */
+}
+footer{
+    background-color: #488B8F;
+    color: #C9FDD7;
+    /* padding: 10px 20px; */
+    font-size: 16px;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.profile{
+    width: 55px;
+    height: 55px;
+    padding-top:5px;
+    text-align: right;
+    float: right;
+}
+
+.about {
+    padding: 0px 150px;
+    text-align: justify;
+    
+}
+
+.about p{
+    line-height: 2;
+}
+
+.about h1 {
+    color: #488B8F;
+    font-family: 'Lufga', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin-top: auto;
+}
+
+
+
+
+.container {
+    position: relative;
+    width: 97%;
+    display: flex;
+    /* height:auto; */
+    /* height: 97vh; */
+    justify-content: center;
+    
+}
+
+.left-section {
+    position: relative;
+    /* width: 272px;
+    height: 736px;
+    padding-top:203px; */
+    /* width: 83.333%; 5/6th width */
+    width: 16%;
+    /* height: 696px; */
+    height: 90vh;
+    /* top: 203px; */
+    background-color: #C9F0E7;
+    padding: 20px;
+    justify-content: center;
+}
+
+.left-section-profile {
+    text-align: center;
+}
+.left-section-profile  td{
+    font-family: Lufga;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 32.63px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.left-section-profile img {
+
+    width: 70%;
+    height: 25%;    
+    /*
+    width: 150px;
+    margin-bottom: 10px;
+    */
+}
+.my-cart-btn {
+    width: 90%;
+    height: 6.4%;
+    /* position:relative; 
+    display: flex;
+    justify-content: center;  
+    */
+    /* Center horizontally */
+    /* align-self: center; */
+    
+    /* justify-content: center; */
+
+    left: 50%; /* Align button to the center horizontally */
+    transform: translateX(-50%); 
+    position: absolute; /* Position button absolutely */
+    bottom: 3%;
+
+    
+    border-radius: 50px 50px 50px 50px;
+    
+    background-color: #ADD2C9;
+    color: #488B8F;
+    border: none;
+    font-size: 20px;
+}
+
+.my-cart-btn:hover {
+    cursor: pointer;
+    background-color: #0056b3; 
+}
+
+.right-section {
+    width: 84%; 
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box; 
+    position: relative;
+    display: flex; 
+    justify-content: center; 
+    /* margin-bottom: 0px; */
+}
+.right-btn {
+    width: 75%;
+    height: 75px;
+    position: absolute; 
+    top: 250px;
+    /* left: 10px; */
+    /* justify-content: center;  */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    border-radius: 50px 50px 50px 50px;
+    
+    text-align: left;
+    background-color: #C9F0E7; 
+    color: #488B8F; 
+    border: none;
+    font-size: 45px;
+    margin-bottom: 20px; /* Add space between buttons */
+    padding: 0 20px;
+}
+
+
+.right-btn:nth-child(2) {
+    top: 175px; 
+}
+.right-btn:nth-child(3) {
+    top: 275px; 
+}
+
+.right-btn:nth-child(4) {
+    top: 375px; 
+}
+
+.right-btn:nth-child(5) {
+    top: 475px; 
+}
+
+.right-btn::after {
+    content: '\25B6'; /* Unicode character for play icon */
+    
+    position: absolute; /* Position the icon */
+    right: 25px; /* Adjust the distance from the right */
+    font-size: 46px; /* Adjust icon size */
+    line-height: 1; /* Align icon vertically */
+}
+
+/* Hover effect */
+.right-btn:hover {
+    cursor: pointer;
+    background-color: #0056b3; /* Example hover background color */
+}
+
+/* Focus effect */
+.right-btn:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 2px #007bff; /* Example focus shadow */
+}
+
+
+.search-container {
+
+    position: absolute;
+    top:500px;
+    display: inline-block; /* Display search bar inline */
+    text-align: center;
+
+}
+
+.search-bar {
+    
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-button {
+    
+    padding: 10px 20px;
+    background-color: #488B8F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+</style>
+</html>

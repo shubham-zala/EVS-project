@@ -1,0 +1,94 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #488B8F;
+    background-color: #FAF9F9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: large;
+    
+}
+.alumni-sans-inline-one-regular {
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 52px;
+
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+header {
+    background-color: #488B8F;
+    color: #C9FDD7;
+    padding: 10px 20px;
+    font-size: 25px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+header * {
+    color: #C9FDD7; /* Change this to the original color */
+}
+footer{
+    background-color: #488B8F;
+    color: #C9FDD7;
+    /* padding: 10px 20px; */
+    font-size: 16px;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.profile{
+    width: 55px;
+    height: 55px;
+    padding-top:5px;
+    text-align: right;
+    float: right;
+}
+
+.about {
+    padding: 0px 150px;
+    text-align: justify;
+    
+}
+
+.about p{
+    line-height: 2;
+}
+
+.about h1 {
+    color: #488B8F;
+    font-family: 'Lufga', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin-top: auto;
+}
