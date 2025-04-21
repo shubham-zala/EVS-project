@@ -95,7 +95,7 @@ const new_signUp_user = asyncHandler(async (req, res) => {
 
     try {
         // Hash the password
-        const hashedPassword = await bcrypt.hash(user_password, 10);
+        const hashedPassword = user_password
 
         // Check if the email is already registered
         const emailCheckResult = await pool.query('SELECT * FROM user_data WHERE user_email = $1', [user_email]);
