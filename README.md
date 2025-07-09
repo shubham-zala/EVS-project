@@ -32,6 +32,22 @@ Welcome to **Eco Sway**, a web-based platform built to bridge the gap between **
 ---
 
 ## 📷 Screenshots
+### 🗄 PostgreSQL Database Structure
+
+The application is backed by a **PostgreSQL database** consisting of 13+ well-structured tables. These tables are designed to handle:
+
+- 👤 `user_data`: Stores user details like name, email, phone, and hashed password.
+- 🏢 `ngo`: Holds NGO-specific info including description, contact, and credentials.
+- 📦 `to_be_sold`, `sold_items`, `donated_items`: Track items across various stages — from upload to transaction.
+- 💰 `transaction_c`, `transaction_d`: Manage item transaction records (buy/sell or donation).
+- 🧍 `volunteers`: Stores volunteer registration details.
+- 🖼 `photos`: Stores image references of donated/sold items.
+- 🧾 `qr_codes`: Stores QR details for verifying item authenticity.
+- 🔐 `session`, `feedback`, etc.: Track user sessions, feedback, and extra features.
+
+This schema ensures **data normalization**, reduces redundancy, and supports **clean API integration** between the backend and the frontend views.
+
+![Database Schema](screenshots/database_structure.png)
 
 ### 🏠 Homepage
 ![Homepage](screenshots/home_page.png)
