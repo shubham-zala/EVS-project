@@ -21,7 +21,7 @@ This is a full-stack web application built for an Environmental Studies (EVS) pr
 
 | Login Page | User Profile | NGO Signup |
 |------------|--------------|------------|
-| ![Login](screenshots/signin_page.png) | ![User](screenshots/user_register.png) | ![NGO](screenshots/ngo_register.png) |
+| ![Login](screenshots/signin_page.png) | ![User](screenshots/user_register_page.png) | ![NGO](screenshots/ngo_register_page.png) |
 
 ---
 
