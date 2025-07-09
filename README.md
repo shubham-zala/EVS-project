@@ -1,43 +1,64 @@
-# 🌱 Environmental Awareness Web App
+# 🌿 ECO SWAY - Environmental Studies Project
 
-This is a full-stack web application built for an Environmental Studies (EVS) project. It enables users and NGOs to register, login securely, and raise awareness about environmental issues.
-
----
-
-## 🚀 Features
-
-- 👥 User and NGO Registration & Login
-- 🔒 Secure Password Storage (bcrypt hashing)
-- 📄 EJS-based Dynamic Pages
-- 🧮 PostgreSQL Database Integration
-- 📷 NGO Profile Picture Upload (via Multer)
-- 🌍 Separate dashboards for NGOs and Users
+Welcome to **Eco Sway**, a web-based platform built to bridge the gap between **NGOs**, **individual users**, and **volunteers** for creating a sustainable environmental impact. The platform supports **donation**, **buy/sell of recyclable products**, **volunteer engagement**, and even has an **AI assistant** for environment-related queries.
 
 ---
 
-## 📸 Screenshots
+## 🚀 Tech Stack
 
-<!-- Add your actual screenshots in the `screenshots/` folder and update the paths -->
-
-| Login Page | User Profile | NGO Signup |
-|------------|--------------|------------|
-| ![Login](screenshots/signin_page.png) | ![User](screenshots/user_register_page.png) | ![NGO](screenshots/ngo_register_page.png) |
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend**: HTML, CSS, EJS
-- **Backend**: Node.js, Express.js
-- **Database**: PostgreSQL
-- **Security**: Bcrypt (password hashing), Cookies
-- **File Upload**: Multer (for NGO profile image)
+| Layer         | Technologies Used                            |
+|---------------|-----------------------------------------------|
+| 🌐 Frontend   | HTML, CSS, Bootstrap, EJS                     |
+| 🧠 Backend    | Node.js, Express.js                           |
+| 🗃 Database    | PostgreSQL                                    |
+| 🔐 Security   | bcrypt for password encryption                |
+| 🤖 AI Bot     | Botpress (for environment/weather queries)    |
+| 🖼 Templating  | EJS (Embedded JavaScript Templates)           |
+| 📦 Other      | Git, GitHub, dotenv, multer                   |
 
 ---
 
-## ⚙️ How to Run Locally
+## 📌 Features
 
-```bash
-git clone https://github.com/yourusername/evs-web-app.git
-cd evs-web-app
-npm install
+- 👥 User and NGO Registration/Login system
+- 🔒 Secure Password Encryption (bcrypt)
+- 🧾 Dashboard for NGOs and Users
+- 🛒 Buy/Sell Portal for recyclable or donated items
+- 🧍 Volunteer Management and Signups
+- 🤖 AI Chatbot (ENV Bot) for environment and weather Q&A
+- 📊 PostgreSQL-based structured database
+- 📸 Screenshot documentation
+
+---
+
+## 📷 Screenshots
+
+### 🏠 Homepage
+![Homepage](screenshots/home_page.png)
+
+### 👤 User Registration
+![User Registration](screenshots/user_register_page.png)
+
+### 🏢 NGO Registration
+![NGO Registration](screenshots/user_register_page.png)
+
+### 🔐 Login Page
+![Login](screenshots/signin_page.png)
+
+### 🛍️ Buy Page  
+![Buy Page](screenshots/buy_page.png)
+
+### 💸 Sell Page  
+![Sell Page](screenshots/sell_page.png)
+
+---
+
+## 🤖 ENV AI Chatbot
+
+An integrated Botpress-powered chatbot that:
+- Answers environmental awareness questions
+- Provides real-time weather updates
+- Engages users in interactive environment-related discussions
+
+![ENV Bot](screenshots/env_bot.png)
+
